@@ -1,0 +1,57 @@
+body {
+    background-image: url(assets/1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.scroll-block {
+background: rgba(157, 70, 70, 0.5);
+width: 30%;
+border-radius: 12px;
+text-align: center;
+}
+
+h1 {
+    background: rgba(169, 58, 58, 0.5);
+    width: 50%;
+    text-align: center;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+
+.alpha, .opacity {
+padding: 16px;
+margin: 12px;
+border: 2px solid black;
+border-radius: 12px;
+max-width: 720px;
+}
+
+.alpha {
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.opacity {
+    background-color: white;
+    opacity: 0.5;
+}
+
+.g {
+
+width: 200px;
+height: 200px;
+border: 1px solid black;
+display: grid;
+place-items: center;
+margin-bottom: 16px;
+
+}
+
+.linear {
+    background-image: linear-gradient(to right, red, yellow);
+}
+.radial {
+    background-image: radial-gradient(red 35%, yellow);
+}

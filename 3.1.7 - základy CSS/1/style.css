@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.wrap {
+    padding: 16PX;
+    height: 230px;
+    background-color: blue;
+}
+
+
+.excample-1{
+    width: 400px;
+    height: 400px;
+    background-color: crimson;
+    color: aquamarine;
+    display: grid;
+    place-items: center;
+
+
+}
+.parent{
+    width: 50%;
+height: 200px;
+    background-color: chartreuse;
+}
+.child{
+    width: 150px;
+    height: 50%;
+    background-color: blueviolet;
+
+}
